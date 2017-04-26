@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  background-color: #FFF1CE;
+}
+
+.flex-container-nav {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #17607D;
+    position: fixed;
+}
+
+.flex-item-nav {
+    background-color: #17607D;
+    cursor: pointer;
+    margin: 0;
+    font-size: 1.4em;
+    padding: 15px;
+    width: auto;
+}
+
+.flex-item-nav:hover {
+  background-color: #002A4A;
+  font-size: 1.5em;
+  padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #FFF1CE;
+}
+
+.flex-item {
+    background: linear-gradient(rgba(214,71,0,0.4), #FFF1CE);
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    width: 350px;
+}
+
+img {
+  width: 100%;
+  height: 450px;
+  margin: 10px;
+  box-shadow: -2px -2px 5px black;
+}
+
+.tittle {
+  font-weight: lighter;
+  font-size: 1.5em;
+}
+
+header > p {
+  font-size: 0.6em;
+}
+
+.sinopse {
+  font-size: 1.4em;
+  color: #333;
+  text-align: left;
+}
+
+.sinopse::first-letter {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #17607D;
+}
+
+.info {
+  font-size: 1.1em;
+  padding: 5px;
+}
+
+.links {
+  background-color: #17607D;
+  position: static;
+  margin-bottom: 0;
+  padding-top: 1vw;
+  padding-bottom: 0px;
+  bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+font-weight: 900;
+color: #17607D;
+text-transform: uppercase;
+font-size: 1.5em;
+text-shadow: rgba(0,0,0,0.498039) 2px 2px 2px;
+letter-spacing: 0.02em;
+}
+
+@media screen and (max-width: 500px) {
+  .flex-item-nav {
+    font-size: 1.1em;
+  }
+}
